@@ -11,13 +11,13 @@ body {
     color: #333;
     background-color: #f8f9fa;
     margin: 0;
-    transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 h1, h2 {
     color: #2c3e50;
 }
 
+/* Container */
 .container {
     width: 85%;
     max-width: 1200px;
@@ -33,49 +33,69 @@ h1, h2 {
     border-bottom: 5px solid #2980b9;
 }
 
-/* Dark Mode Button */
-.dark-mode-btn {
-    position: fixed;
-    top: 10px;
-    right: 10px;
-    padding: 10px 20px;
-    background-color: #3498db;
+.header h1 {
+    margin: 0;
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.header h2 {
+    margin: 10px 0;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.header p {
+    margin-top: 10px;
+}
+
+.header a {
     color: white;
-    border: none;
-    cursor: pointer;
-    border-radius: 5px;
+    text-decoration: none;
+    font-weight: 500;
 }
 
-.dark-mode-btn:hover {
-    background-color: #2980b9;
+.header a:hover {
+    text-decoration: underline;
 }
 
-/* Skill List Hover Effect */
-.skill-list li {
+/* Section Styles */
+section {
+    padding: 40px 0;
+    border-bottom: 1px solid #e0e0e0;
+    background-color: #fff;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 10px;
+}
+
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+ul li {
     margin-bottom: 10px;
-    transition: color 0.3s ease, transform 0.3s ease;
 }
 
-.skill-list li:hover {
-    color: #3498db;
-    transform: scale(1.05);
+p {
+    margin-bottom: 20px;
+    font-size: 1rem;
 }
 
-/* Dark Mode */
-body.dark-mode {
+/* Footer Styles */
+.footer {
     background-color: #2c3e50;
-    color: #ecf0f1;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
 }
 
-body.dark-mode .header {
-    background-color: #1abc9c;
-    border-bottom: 5px solid #16a085;
-}
-
-body.dark-mode .dark-mode-btn {
-    background-color: #16a085;
-}
-
-body.dark-mode .dark-mode-btn:hover {
-    background-color: #1abc9c;
+.footer p {
+    margin: 0;
+    font-size: 1rem;
 }
