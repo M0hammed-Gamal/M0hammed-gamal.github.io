@@ -1,0 +1,62 @@
+/* General styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+header {
+    background-color: #016EEA;
+    color: #fff;
+    text-align: center;
+    padding: 2rem 0;
+}
+
+header h1 {
+    font-size: 2.5rem;
+}
+
+header .sub-title {
+    margin: 1rem 0;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 2rem;
+    margin: 1rem auto;
+    max-width: 1000px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    border-radius: 8px;
+}
+
+/* About section */
+.about pre {
+    background-color: #f4f4f9;
+    padding: 1rem;
+    border-left: 4px solid #016EEA;
+    overflow-x: auto;
+}
+
+.about em {
+    display: block;
+    margin-top: 1rem;
+}
+
+/* Languages and Tools section */
+.tools img {
+    width: 40px;
+    height: 40px;
+    margin: 0.5rem;
+}
+
+/* Support Section */
+.support img {
+    margin: 1rem 0;
+}
